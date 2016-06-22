@@ -13,6 +13,18 @@ a {
   margin: 0;
 }
 
+h1{
+  font-family: 'Chewy', cursive; 
+  margin: 15px 0;
+  font-size: 3em; 
+}
+
+h2{
+  font-family: 'Open Sans', sans-serif; 
+  margin: 15px 0;
+  font-size: 2em;
+}
+
 a {
   color: #6ab47b;
 }
@@ -32,6 +44,15 @@ nav {
 
 nav a, nav a:visited {
   color: #fff;
+}
+
+nav a.selected, nav a:hover {
+  color: #32673f;
+}
+
+body {
+  background-color: #fff;
+  color: #999;
 }
 
 
