@@ -12,16 +12,25 @@ img {
   max-width: 100%;
 }
 
-
+h3 {
+  margin: 0 0 2em 0;
+}
 
 /**********************************
 HEADING
 ***********************************/
 
+header {
+  float: left;
+  margin: 0 0 30px 0;
+  padding: 5px 0 0 0;
+  width: 100%;
+}
+
 #logo {
   text-align: center;
   margin: 0;
-}
+}  
 
 h1{
   font-family: 'Chewy', cursive; 
@@ -52,11 +61,31 @@ h1, h2 {
 /**********************************
 NAVIGATION
 ***********************************/
+nav {
+  text-align: center;
+  padding: 10px 0;
+  margin: 20px 0 0;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0 10px;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+}
+
+nav a {
+  font-weight: 800;
+  padding-top: 50px 10px;
+}
 
 
-  nav {
+nav {
   background: #599a68;
-  text-align: left;
+  text-align: center;
   padding: 10px 0;
   margin: 20px 0 0;
 }
@@ -83,8 +112,15 @@ FOOTER
 footer {
   font-size: 0.75em;
   text-align: center;
+  clear: both;
   padding-top: 50px;
   color: #ccc;
+}
+
+.social-icon {
+  width: 20px;
+  height:20px;
+  margin: 0 5px;
 }
 
 
@@ -106,8 +142,23 @@ PAGE: PORTFOLIO
   color: #bdc3c7;
 }
 
+#gallery li a p {
+  margin: 0;
+  padding: 5%
+  font-size: 0.75em;
+  color: #bdc3c7
+}
 
+/***************
+PAGE: ABOUT
+****************/
 
+.profile-photo {
+  display: block;
+  max-width: 150px;
+  margin: 0 auto 30px;
+  border-radius: 100%;
+}
 
 
 
